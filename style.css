@@ -1,0 +1,88 @@
+/* import command to have access to the googleAPI (google fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+h1 {
+  color: darkslategray;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h2 {
+  color: darkslategray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  color: darkslategray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: darkslategrey;
+  line-height: 180%;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+div {
+  display: block;
+}
+
+li {
+  display: inline;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 991px) {
+  /* For tablets */
+  .container {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* For desktops */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 1px 3px 7px rgba(65, 37, 92, 0.719);
+  border-radius: 1px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.profile_pic {
+  width: 100px;
+  border-radius: 20%;
+}
+
+.a_button {
+  background-color: #36304d;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+.a_button:hover {
+  background-color: darkgrey;
+  color: #36304d;
+}
+
+.inline-icons {
+  list-style: none;
+  padding-left: 0px;
+}
